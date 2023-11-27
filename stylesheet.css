@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #cecece;
+  overflow: hidden;
+}
+
+ul li {
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+ul li.right {
+  float: right;
+}
+
+ul li:hover {
+  background-color: #ff0000;
+  color: #cecece;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
